@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AltaVista 2.0</title>
+  <link rel="stylesheet" href="altavista.css" />
+  <link rel="icon" href="altavista-logo.png" type="image/png" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="altavista-logo.png" alt="AltaVista Logo" />
+      <h1>AltaVista <span>2.0</span></h1>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Enter your search..." />
+        <button id="searchBtn">Search</button>
+      </div>
+      <nav class="tabs">
+        <button data-type="web" class="active">All</button>
+        <button data-type="images">Images</button>
+        <button data-type="videos">Videos</button>
+        <button data-type="news">News</button>
+      </nav>
+    </header>
+    <main id="results"></main>
+  </div>
+  <script src="altavista.js"></script>
+</body>
+</html>
